@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <!-- splide -->
+    <link rel="stylesheet" href="./assets/splide/splide-core.min.css" />
+    <!-- splide -->
+    <!-- glinder -->
+    <!-- <link rel="stylesheet" href="./assets/glider/glider.min.css" /> -->
+    <!-- glinder -->
+  </head>
+  <body>
+    <div class="splide">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="slider-images__container splide__slide">
+            <img
+              class="slider-images__img"
+              src="./assets/img/img-example-2.png"
+              alt=""
+            />
+          </div>
+          <div class="slider-images__container splide__slide">
+            <img
+              class="slider-images__img"
+              src="./assets/img/img-example-2.png"
+              alt=""
+            />
+          </div>
+          <div class="slider-images__container splide__slide">
+            <img
+              class="slider-images__img"
+              src="./assets/img/img-example-2.png"
+              alt=""
+            />
+          </div>
+          <div class="slider-images__container splide__slide">
+            <img
+              class="slider-images__img"
+              src="./assets/img/img-example-2.png"
+              alt=""
+            />
+          </div>
+          <div class="slider-images__container splide__slide">
+            <img
+              class="slider-images__img"
+              src="./assets/img/img-example-2.png"
+              alt=""
+            />
+          </div>
+          <div class="slider-images__container splide__slide">
+            <img
+              class="slider-images__img"
+              src="./assets/img/img-example-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- splide -->
+    <script src="./assets/splide/splide.min.js"></script>
+    <script>
+      new Splide(".splide", {
+        fixedWidth: "100px",
+        fixedHeight: "100px",
+        gap: "12px",
+        cover: true,
+        arrows: false,
+        pagination: false,
+      }).mount();
+    </script>
+    <!-- splide -->
+    <!-- glinder -->
+    <!-- <script src="./assets/glider/glider.min.js"></script> -->
+    <!-- <script>
+      window.addEventListener("load", function () {
+        new Glider(document.querySelector(".slider-images"), {
+          slidesToShow: "auto",
+          slidesToScroll: "auto",
+          draggable: true,
+        });
+      });
+    </script> -->
+    <!-- glinder -->
+  </body>
+</html>

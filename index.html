@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/splide/splide-core.min.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="app">
+      <header class="header"><img class="header__brand" src="./assets/img/logo.png">
+        <div class="header__buttons"><img class="header__button" src="./assets/img/icon-filter.svg" alt="svg de un filtro"><img class="header__button header__button--menu" src="./assets/img/icon-menu.svg" alt="svg de un menu">
+          <nav class="dropdown dropdown--menu"><a class="dropdown__item" href="#">Inicio</a><a class="dropdown__item" href="#">Sobre nosotros</a><a class="dropdown__item" href="#">Servicios</a></nav>
+        </div>
+      </header>
+      <div class="main">
+        <div class="card"><img class="card__img" src="./assets/img/img-example.png" alt="">
+          <p class="card__price">$1,000,000</p>
+          <div class="card__buttons">
+            <div class="button button--card-rounded button--info"><img class="button__img" src="./assets/img/icon-info.svg" alt=""></div>
+            <div class="button button--card-rounded button--map"><img class="button__img" src="./assets/img/icon-map.svg" alt=""></div>
+            <div class="button button--card-rounded"><img class="button__img" src="./assets/img/icon-whatsapp.svg" alt=""></div>
+          </div>
+          <div class="card__empty-top"></div>
+          <div class="card__slide">
+            <div class="slider-images splide--images">
+              <div class="splide__track">
+                <div class="splide__list">
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-info splide--info">
+              <div class="splide__track">
+                <div class="splide__list">
+                  <p class="slider-info__type splide__slide">Superficie <span class="slider-info__data">23m2</span></p>
+                  <p class="slider-info__type splide__slide">Baños <span class="slider-info__data">3</span></p>
+                  <p class="slider-info__type splide__slide">Recámaras <span class="slider-info__data">4</span></p>
+                  <p class="slider-info__type splide__slide">Aire acondicionados <span class="slider-info__data">1</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--map">
+            <div class="mask mask--map"></div>
+            <div class="button button--modal button--red button--card-rounded button--close-map"><img class="button__img" src="./assets/img/icon-close.svg" alt=""></div>
+            <iframe class="map" src="https://maps.google.com/?q=21.161079,-86.883665&amp;z=13&amp;output=embed" style="border: 0" loading="lazy"></iframe>
+          </div>
+          <div class="modal modal--info">
+            <div class="mask mask--info"></div>
+            <div class="button button--modal button--red button--card-rounded button--close-info"><img class="button__img" src="./assets/img/icon-close.svg" alt=""></div>
+            <div class="card-info">
+              <h2 class="card-info__title">Título de la casa </h2>
+              <div class="card-info__body">
+                <table class="card-info__table">
+                  <tbody>
+                    <tr class="card-info__table-row">
+                      <th class="card-info__table-cell">Superficie</th>
+                      <td class="card-info__table-cell">230m2</td>
+                    </tr>
+                    <tr class="card-info__table-row">
+                      <th class="card-info__table-cell">Construcción</th>
+                      <td class="card-info__table-cell">325m2</td>
+                    </tr>
+                    <tr class="card-info__table-row"> 
+                      <th class="card-info__table-cell">Baños </th>
+                      <td class="card-info__table-cell">3</td>
+                    </tr>
+                    <tr class="card-info__table-row"> 
+                      <th class="card-info__table-cell">Recámaras </th>
+                      <td class="card-info__table-cell">2</td>
+                    </tr>
+                    <tr class="card-info__table-row"> 
+                      <th class="card-info__table-cell">Pisos </th>
+                      <td class="card-info__table-cell">2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="card-info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eveniet magnam rerum provident doloribus, vel aperiam? Consectetur voluptatem doloribus quae optio eaque officiis temporibus mollitia sed dicta molestias, sit suscipit eius incidunt illo nihil, fuga repellat ipsa expedita animi fugiat aperiam! Fugit maxime, odio quos reprehenderit amet suscipit earum delectus consectetur totam in voluptas asperiores! Unde necessitatibus alias veritatis. Distinctio numquam facilis nisi ipsum omnis aliquid explicabo dolores iste minima alias? Nemo, numquam omnis autem, adipisci vitae tenetur fuga aliquid impedit consequatur sit nulla porro quod pariatur accusamus et quae maiores corporis corrupti esse quidem ducimus. Dolorum perspiciatis quod ipsam!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card"><img class="card__img" src="./assets/img/img-example.png" alt="">
+          <p class="card__price">$1,000,000</p>
+          <div class="card__buttons">
+            <div class="button button--card-rounded button--info"><img class="button__img" src="./assets/img/icon-info.svg" alt=""></div>
+            <div class="button button--card-rounded button--map"><img class="button__img" src="./assets/img/icon-map.svg" alt=""></div>
+            <div class="button button--card-rounded"><img class="button__img" src="./assets/img/icon-whatsapp.svg" alt=""></div>
+          </div>
+          <div class="card__empty-top"></div>
+          <div class="card__slide">
+            <div class="slider-images splide--images">
+              <div class="splide__track">
+                <div class="splide__list">
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                  <div class="slider-images__container splide__slide"><img class="slider-images__img" src="./assets/img/img-example-2.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-info splide--info">
+              <div class="splide__track">
+                <div class="splide__list">
+                  <p class="slider-info__type splide__slide">Superficie <span class="slider-info__data">42m2</span></p>
+                  <p class="slider-info__type splide__slide">Baños <span class="slider-info__data">1</span></p>
+                  <p class="slider-info__type splide__slide">Recámaras <span class="slider-info__data">3</span></p>
+                  <p class="slider-info__type splide__slide">Aire acondicionados <span class="slider-info__data">2</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--map">
+            <div class="mask mask--map"></div>
+            <div class="button button--modal button--red button--card-rounded button--close-map"><img class="button__img" src="./assets/img/icon-close.svg" alt=""></div>
+            <iframe class="map" src="https://maps.google.com/?q=21.161079,-86.883665&amp;z=13&amp;output=embed" style="border: 0" loading="lazy"></iframe>
+          </div>
+          <div class="modal modal--info">
+            <div class="mask mask--info"></div>
+            <div class="button button--modal button--red button--card-rounded button--close-info"><img class="button__img" src="./assets/img/icon-close.svg" alt=""></div>
+            <div class="card-info">
+              <h2 class="card-info__title">Título de la casa </h2>
+              <div class="card-info__body">
+                <table class="card-info__table">
+                  <tbody>
+                    <tr class="card-info__table-row">
+                      <th class="card-info__table-cell">Superficie</th>
+                      <td class="card-info__table-cell">230m2</td>
+                    </tr>
+                    <tr class="card-info__table-row">
+                      <th class="card-info__table-cell">Construcción</th>
+                      <td class="card-info__table-cell">325m2</td>
+                    </tr>
+                    <tr class="card-info__table-row"> 
+                      <th class="card-info__table-cell">Baños </th>
+                      <td class="card-info__table-cell">3</td>
+                    </tr>
+                    <tr class="card-info__table-row"> 
+                      <th class="card-info__table-cell">Recámaras </th>
+                      <td class="card-info__table-cell">2</td>
+                    </tr>
+                    <tr class="card-info__table-row"> 
+                      <th class="card-info__table-cell">Pisos </th>
+                      <td class="card-info__table-cell">2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="card-info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eveniet magnam rerum provident doloribus, vel aperiam? Consectetur voluptatem doloribus quae optio eaque officiis temporibus mollitia sed dicta molestias, sit suscipit eius incidunt illo nihil, fuga repellat ipsa expedita animi fugiat aperiam! Fugit maxime, odio quos reprehenderit amet suscipit earum delectus consectetur totam in voluptas asperiores! Unde necessitatibus alias veritatis. Distinctio numquam facilis nisi ipsum omnis aliquid explicabo dolores iste minima alias? Nemo, numquam omnis autem, adipisci vitae tenetur fuga aliquid impedit consequatur sit nulla porro quod pariatur accusamus et quae maiores corporis corrupti esse quidem ducimus. Dolorum perspiciatis quod ipsam!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="./assets/splide/splide.min.js"></script>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
